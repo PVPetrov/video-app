@@ -1,5 +1,6 @@
 {
   "extends": ["airbnb", "plugin:prettier/recommended"],
+  "plugins": ["react", "jsx-a11y", "import"],
   "parser": "babel-eslint",
   "env": {
     "node": true,

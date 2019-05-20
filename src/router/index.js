@@ -1,8 +1,7 @@
 import { Router } from "express";
+import video from "./video";
 
 const router = Router();
-router.use("/ping", (req, res, next) => {
-  res.send('You say "ping", I say "pong"');
-});
 
+router.use("/videos", video);
 export default router;
